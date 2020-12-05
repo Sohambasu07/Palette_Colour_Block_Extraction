@@ -1,6 +1,9 @@
+#Main Code
+
 import cv2 as cv
 import numpy as np
 import imutils as im
+import os
 import sklearn
 import math
 
@@ -8,11 +11,16 @@ def shape_det(c):
     per = cv.arcLength(c, True)
     shp = cv.approxPolyDP(c, 0.03*per, True)
     if len(shp) == 4:
-        print(len(shp))
+        #print(len(shp))
         return len(shp)
     else: return -1
 
-img = cv.imread('D:\Studies\Image Processing Project\\blue_shades.jpg', -1)
+img_path = str(os.getcwd())
+img_path = img_path[:img_path.rindex("Python Code")] + "blue_shades.jpg"
+print(img_path)
+img = cv.imread(img_path, -1)
+cv.imshow("Original Image", img)
+cv.waitKey(0)
 resized = im.resize(img, width=600)
 sh = resized.shape
 H = sh[0]

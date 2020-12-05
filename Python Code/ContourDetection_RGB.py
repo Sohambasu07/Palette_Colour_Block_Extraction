@@ -1,15 +1,22 @@
 import cv2 as cv
 import numpy as np
 import math
+import os
 
 
 def shape_det(c):
     per = cv.arcLength(c, True)
-    shp = cv.approxPolyDP(c, 0.01*per, True)
+    shp = cv.approxPolyDP(c, 0.03*per, True)
     return shp
 
 
-img = cv.imread('D:\Studies\Image Processing Project\pink_shades.jpg', -1)
+img_path = str(os.getcwd())
+img_path = img_path[:img_path.rindex("Python Code")] + "pink_shades.jpg"
+print(img_path)
+img = cv.imread(img_path, -1)
+cv.imshow("Original Image", img)
+cv.waitKey(0)
+#img = cv.imread('D:\Studies\Image Processing Project\pink_shades.jpg', -1)
 sh = img.shape
 H = sh[0]
 W = sh[1]
