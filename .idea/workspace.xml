@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1e4dbd82-2584-490c-b7c1-fc90fe021b21" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/other.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python Code/ContourDetection_Grayscale.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python Code/ContourDetection_Grayscale.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python Code/ContourDetection_RGB.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python Code/ContourDetection_RGB.py" afterDir="false" />
-    </list>
+    <list default="true" id="1e4dbd82-2584-490c-b7c1-fc90fe021b21" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -211,7 +205,7 @@
       <option name="presentableId" value="Default" />
       <updated>1562219175480</updated>
       <workItem from="1569517131696" duration="170000" />
-      <workItem from="1607151150890" duration="966000" />
+      <workItem from="1607151150890" duration="1364000" />
     </task>
     <servers />
   </component>
