@@ -61,7 +61,7 @@
     </option>
   </component>
   <component name="RunManager" selected="Python.Run (1)">
-    <configuration name="ContourDetection_Grayscale" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="ContourDetection_Grayscale" type="PythonConfigurationType" factoryName="Python">
       <module name="Image Processing Project" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -83,7 +83,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="ContourDetection_RGB" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="ContourDetection_RGB" type="PythonConfigurationType" factoryName="Python">
       <module name="Image Processing Project" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -105,10 +105,13 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Run (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="Run (1)" type="PythonConfigurationType" factoryName="Python">
       <module name="ESwarm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../Swarm Intelligence/PSO_ESwarm_Project/ESwarm" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -124,10 +127,13 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Run" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="Run" type="PythonConfigurationType" factoryName="Python">
       <module name="ESwarm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../Swarm Intelligence/PSO_ESwarm_Project/ESwarn" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -165,14 +171,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Python.Run (1)" />
-        <item itemvalue="Python.Run" />
-        <item itemvalue="Python.ContourDetection_Grayscale" />
-        <item itemvalue="Python.ContourDetection_RGB" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -186,6 +184,7 @@
       <updated>1562219175480</updated>
       <workItem from="1569517131696" duration="170000" />
       <workItem from="1607151150890" duration="4966000" />
+      <workItem from="1607185869038" duration="277000" />
     </task>
     <servers />
   </component>
@@ -197,7 +196,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
